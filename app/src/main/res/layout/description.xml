@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:minWidth="1000dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/newsImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:scaleType="fitXY"
+                    android:backgroundTint="#8888"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/newstitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/newsImageView"
+                    android:background="#8888"
+                    android:text="Title"
+                    android:textColor="@android:color/white"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="2"
+                    android:fontFamily="@font/josefin_regular"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Reporter :"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/reporter"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/newsImageView"
+                    android:text="name"
+                    android:fontFamily="@font/josefin_regular"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:fontFamily="@font/josefin_regular"
+                    android:layout_height="wrap_content"
+                    android:text="Date :"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/dateAndTime"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/newsImageView"
+                    android:text="name"
+                    android:fontFamily="@font/josefin_regular"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_margin="8dp"
+                android:maxLines="5"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:id="@+id/descriptionTextView"
+                android:text="descripiton"
+                android:fontFamily="@font/josefin_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
