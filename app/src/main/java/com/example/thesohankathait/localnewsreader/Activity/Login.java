@@ -50,8 +50,6 @@ public class Login extends AppCompatActivity {
         DownloadTask downloadTask=new DownloadTask();
         downloadTask.execute("https://newsapi.org/v2/top-headlines?sources=the-hindu&apiKey=eb1b6923ed7f413aa31dc9ab9a52647d");
 
-        nameEditText=findViewById(R.id.nameEditText);
-        phoneEditText=findViewById(R.id.phoneEditText);
         googleSignInButton=findViewById(R.id.googlesigninbutton);
         googleSignInButton.setOnClickListener(new View.OnClickListener() {
             @Override

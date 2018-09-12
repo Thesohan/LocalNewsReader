@@ -25,12 +25,13 @@
                 <ImageView
                     android:id="@+id/newsImageView"
                     android:layout_width="match_parent"
-                    android:layout_height="240dp"
+                    android:layout_height="320dp"
                     android:scaleType="fitXY"
                     android:backgroundTint="#8888"
                     android:src="@mipmap/ic_launcher" />
 
                 <TextView
+                    android:layout_marginLeft="4dp"
                     android:id="@+id/newstitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -43,6 +44,7 @@
 
             </RelativeLayout>
             <LinearLayout
+                android:layout_margin="8dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -69,6 +71,7 @@
 
             </LinearLayout>
             <LinearLayout
+                android:layout_margin="8dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -95,16 +98,21 @@
 
             </LinearLayout>
 
-
-            <TextView
-                android:layout_margin="8dp"
-                android:maxLines="5"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-                android:id="@+id/descriptionTextView"
-                android:text="descripiton"
-                android:fontFamily="@font/josefin_regular"
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_margin="8dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:id="@+id/descriptionTextView"
+                    android:text="descripiton"
+                    android:fontFamily="@font/josefin_regular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </ScrollView>
 
         </LinearLayout>
 
