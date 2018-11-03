@@ -23,7 +23,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/newsImageView"
+                    android:id="@+id/newsImageViewt"
                     android:layout_width="match_parent"
                     android:layout_height="320dp"
                     android:scaleType="fitXY"
@@ -35,7 +35,7 @@
                     android:id="@+id/newstitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/newsImageView"
+                    android:layout_alignBottom="@+id/newsImageViewt"
                     android:background="#8888"
                     android:text="Title"
                     android:textColor="@android:color/white"
@@ -62,7 +62,7 @@
                     android:layout_weight="2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/newsImageView"
+                    android:layout_alignBottom="@+id/newsImageViewt"
                     android:text="name"
                     android:fontFamily="@font/josefin_regular"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
@@ -89,7 +89,7 @@
                     android:layout_weight="2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/newsImageView"
+                    android:layout_alignBottom="@+id/newsImageViewt"
                     android:text="name"
                     android:fontFamily="@font/josefin_regular"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"

@@ -1,35 +1,43 @@
 {
   "project_info": {
-    "project_number": "1096365879294",
-    "firebase_url": "https://localnewsreader-fc847.firebaseio.com",
-    "project_id": "localnewsreader-fc847",
-    "storage_bucket": "localnewsreader-fc847.appspot.com"
+    "project_number": "381501381743",
+    "firebase_url": "https://localnewsreader-59a31.firebaseio.com",
+    "project_id": "localnewsreader-59a31",
+    "storage_bucket": "localnewsreader-59a31.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1096365879294:android:290e2910d21ec274",
+        "mobilesdk_app_id": "1:381501381743:android:550cc3a8e3d83ec6",
         "android_client_info": {
-          "package_name": "com.example.thesohankathait.localnewsreader"
+          "package_name": "com.thesohan.thesohankathait.localnewsreader"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1096365879294-n884dmsoi9jb0j79onu7c7cb1l3fnohq.apps.googleusercontent.com",
+          "client_id": "381501381743-p442s1ne7dhdi7lrel59lc8t49fjpi01.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.thesohankathait.localnewsreader",
-            "certificate_hash": "121208ee82e37b1da32bb7fd539d8bbafce2cb17"
+            "package_name": "com.thesohan.thesohankathait.localnewsreader",
+            "certificate_hash": "cb2faf56dca8ccbae4c59f7c468e78f26f55e341"
           }
         },
         {
-          "client_id": "1096365879294-9mbr7e8b0g50mj8umrvpou348a3jj5rn.apps.googleusercontent.com",
+          "client_id": "381501381743-0uthl516s8a1lu2ual3690r7tk1k243j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thesohan.thesohankathait.localnewsreader",
+            "certificate_hash": "098ad79901a0f5794f028c68dd7c45345b44f5fd"
+          }
+        },
+        {
+          "client_id": "381501381743-22osceng095744jfpjpevm8pkc7lnfpa.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBFyk-THJfOg6IJXOg9Apc4sPYq_KmEgk4"
+          "current_key": "AIzaSyB7lQjOm-V-_a9jo_PcaFbW5E1wtoTN4m0"
         }
       ],
       "services": {
@@ -40,7 +48,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "1096365879294-9mbr7e8b0g50mj8umrvpou348a3jj5rn.apps.googleusercontent.com",
+              "client_id": "381501381743-22osceng095744jfpjpevm8pkc7lnfpa.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -48,7 +56,8 @@
         "ads_service": {
           "status": 2
         }
-      }
+      },
+      "admob_app_id": "ca-app-pub-3834478485267663~5363622764"
     }
   ],
   "configuration_version": "1"

@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 <ScrollView
-
     android:scrollbarAlwaysDrawVerticalTrack="true"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/superUploadFragmentLinearLayout"
     android:orientation="vertical"
+    android:layout_gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -17,7 +22,7 @@
         <com.google.android.material.button.MaterialButton
             android:layout_margin="8dp"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-
+            android:backgroundTint="@color/colorPrimary"
             android:id="@+id/uploadImage"
             android:text="Select Image"
             android:textAlignment="center"
@@ -36,6 +41,7 @@
     <com.google.android.material.textfield.TextInputEditText
         android:maxLines="2"
         android:hint="Title"
+
         android:fontFamily="@font/josefin_bold"
         android:padding="8dp"
         android:layout_margin="8dp"
@@ -68,6 +74,7 @@
         android:layout_gravity="center"
         android:fontFamily="@font/josefin_bold"
         android:padding="8dp"
+        android:backgroundTint="@color/colorPrimary"
         android:layout_height="wrap_content"
         android:elevation="4dp"
         android:layout_margin="4dp"
@@ -79,3 +86,4 @@
 
 
 </ScrollView>
+</LinearLayout>

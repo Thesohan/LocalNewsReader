@@ -16,6 +16,9 @@
             app:tabTextAppearance="@style/Base.TextAppearance.AppCompat.Medium"
             app:tabGravity="center"
             app:tabIconTint="@color/colorAccent"
+            android:background="@color/white"
+            app:tabTextColor="@color/black"
+            android:backgroundTint="@color/white"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"/>
 
