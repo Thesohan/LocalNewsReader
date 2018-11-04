@@ -52,10 +52,12 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //if network isn't available then retry
         if(!CheckNetwork.isNetworkAvailable(this))
             warningAndExit();
 
 
+        //if network is available then fetch the news from api and ask for login
         DownloadTask downloadTask=new DownloadTask();
             downloadTask.execute("https://newsapi.org/v2/top-headlines?sources=the-hindu&apiKey=eb1b6923ed7f413aa31dc9ab9a52647d");
 

@@ -119,6 +119,7 @@ public class NewsActivity extends AppCompatActivity
            addDifferentFragment(new policyFragment());
        }
        else if(id==R.id.nav_share){
+           //share the app link
            String appLink="http://play.google.com/store/apps/details?id=com.thesohan.thesohankathait.localnewsreader";
            Intent sendIntent = new Intent();
            sendIntent.setAction(Intent.ACTION_SEND);
